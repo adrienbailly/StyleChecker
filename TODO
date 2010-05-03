@@ -1,0 +1,5 @@
+# Write usage in README
+# Test some file to understand the state of the project
+# Make the lexer + parser working for simple case
+# Package nicely
+# Work on the error reporting, error definition
