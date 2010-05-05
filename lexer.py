@@ -67,8 +67,6 @@ tokens = reserved + types + (
     'ELLIPSIS',
     )
 
-
-
 # Operators
 t_PLUS             = r'\+'
 t_PERIOD           = r'\.'

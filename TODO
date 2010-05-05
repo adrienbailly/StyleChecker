@@ -1,5 +1,7 @@
-# Write usage in README
-# Test some file to understand the state of the project
-# Make the lexer + parser working for simple case
-# Package nicely
-# Work on the error reporting, error definition
+[X] Write usage in README
+[X] Test some file to understand the state of the project
+[ ] Lexer should be able to parse an entire document
+[ ] Parser should be able to go through a std document
+[ ] Package nicely
+[ ] Work on the error reporting, error definition
+[ ] Write tests
