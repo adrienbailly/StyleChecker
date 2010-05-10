@@ -26,7 +26,7 @@ final
 floatval
 for
 foreach
-function 
+function
 gettype
 global
 if
@@ -40,14 +40,14 @@ intval
 list
 namespace
 new
-null 
+null
 or
 print
 print_r
 private
 protected
 public
-require 
+require
 require_once
 return self
 serialize
@@ -61,7 +61,7 @@ try
 unserialize
 unset
 var
-var_dump 
+var_dump
 var_export
 while
 xor

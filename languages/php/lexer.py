@@ -67,6 +67,20 @@ tokens = reserved + types + (
     'ELLIPSIS',
     )
 
+# Assignment operators
+t_TIMESEQUAL       = r'\*='
+t_DIVEQUAL         = r'/='
+t_MODEQUAL         = r'%='
+t_PLUSEQUAL        = r'\+='
+t_PERIODEQUAL      = r'\.='
+t_MINUSEQUAL       = r'-='
+t_LSHIFTEQUAL      = r'<<='
+t_RSHIFTEQUAL      = r'>>='
+t_ANDEQUAL         = r'&='
+t_OREQUAL          = r'\|='
+t_XOREQUAL         = r'\^='
+t_EQUALS           = r'='
+
 # Operators
 t_PLUS             = r'\+'
 t_PERIOD           = r'\.'
@@ -91,20 +105,6 @@ t_EQSTR            = r'==='
 t_NESTR            = r'!=='
 t_EQ               = r'=='
 t_NE               = r'!='
-
-# Assignment operators
-t_EQUALS           = r'='
-t_TIMESEQUAL       = r'\*='
-t_DIVEQUAL         = r'/='
-t_MODEQUAL         = r'%='
-t_PLUSEQUAL        = r'\+='
-t_PERIODEQUAL      = r'\.='
-t_MINUSEQUAL       = r'-='
-t_LSHIFTEQUAL      = r'<<='
-t_RSHIFTEQUAL      = r'>>='
-t_ANDEQUAL         = r'&='
-t_OREQUAL          = r'\|='
-t_XOREQUAL         = r'^='
 
 # Increment/decrement
 t_PLUSPLUS         = r'\+\+'
@@ -163,7 +163,6 @@ def t_space(t):
     r'\ '
     t.type = 'SPACE'
     return t
-    
 
 def t_newline(t):
     r'\n'
